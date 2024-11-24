@@ -61,14 +61,44 @@
         <h1 class="name">Your Name</h1>
         <p class="bio">This is a short bio about yourself. Share something interesting!</p>
         <div class="social-buttons">
-            <button onclick="contactAlert('Email')">📧 Email Me</button>
+            <button onclick="redirectToWhatsApp()">📧 Email Me</button>
             <button onclick="contactAlert('LinkedIn')">💼 LinkedIn</button>
-            <button onclick="contactAlert('Twitter')">🐦 Twitter</button>
+            <button onclick="fetchEmployees()">🐦 Twitter</button>
         </div>
     </div>
     <script>
         function contactAlert(platform) {
             alert(`You clicked the ${platform} button!`);
+        }
+    </script>
+
+     <script>
+        function fetchEmployees() {
+            const apiUrl = "https://retoolapi.dev/0tvafA/data/1";
+            
+            fetch(apiUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Display the response in an alert box
+                    alert("Employee Data: " + JSON.stringify(data));
+                })
+                .catch(error => {
+                    alert("Error fetching employee data: " + error.message);
+                });
+        }
+
+         function redirectToWhatsApp() {
+            const phoneNumber = "7010081713"; // Your phone number
+            const message = encodeURIComponent("Hello! This is a pre-filled message."); // Pre-filled message
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+            
+            // Redirect the user to WhatsApp
+            window.open(whatsappUrl, "_blank");
         }
     </script>
 </body>
