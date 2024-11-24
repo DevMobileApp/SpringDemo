@@ -1,9 +1,6 @@
 {
-	"response code":"200",
-	"employees":[    
-    {"name":"Ram", "email":"ram@gmail.com", "age":23},    
-    {"name":"Shyam", "email":"shyam23@gmail.com", "age":28},  
-    {"name":"John", "email":"john@gmail.com", "age":33},    
-    {"name":"Bob", "email":"bob32@gmail.com", "age":41}   
-]
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
 }
