@@ -1,3 +1,6 @@
+{
+
+  "Gopalaachari":
 [
   {
     "id": 1,
@@ -65,7 +68,7 @@
     "MotherName": "avva",
     "ParentID": "gopal020540",
     "wife": {
-      "name": "perima A",
+      "name": "perima",
       "Age": "50",
       "DOB": "12-06-1970",
       "City": "coimbatore",
@@ -138,4 +141,29 @@
     },
     "unicID": "gopal020540"
   }
+],
+"rrrgroup":[
+  {
+    "id": 1,
+    "Name": "rrrgropu",
+    "Age": "80",
+    "DOB": "02-05-1940",
+    "City": "Erode",
+    "Address": " puram",
+    "FatherName": "kolluthata",
+    "MotherName": "kolluavva",
+    "ParentID": "",
+    "wife": {
+      "name": "avva",
+      "Age": "70",
+      "DOB": "12-06-1970",
+      "City": "coimbatore",
+      "Address": "Anna nager",
+      "FatherName": "Nataraj",
+      "MotherName": "avva"
+    },
+    "unicID": "rrgrop020540"
+  }
 ]
+
+}
