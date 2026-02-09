@@ -1,59 +1,141 @@
-{
-  "Playlist": [
-    {
-      "id": 1,
-      "title": "Gym-Workout",
-      "Descrip": "Increase & boostup your energy ",
-      "Thumbnail": "typicode"
+[
+  {
+    "id": 1,
+    "Name": "Saravanan",
+    "Age": "27",
+    "DOB": "13-07-1998",
+    "City": "Vellakovil",
+    "Address": "kamaraja puram",
+    "FatherName": "Dhanasekaran",
+    "MotherName": "Lalitha",
+    "ParentID": "dhana251275",
+    "wife": null,
+    "unicID": "Sara130798"
+  },
+  {
+    "id": 1,
+    "Name": "Arul",
+    "Age": "29",
+    "DOB": "12-06-1996",
+    "City": "Vellakovil",
+    "Address": "kamaraja puram",
+    "FatherName": "Dhanasekaran",
+    "MotherName": "Lalitha",
+    "ParentID": "dhana251275",
+    "wife": {
+      "name": "Bhava",
+      "Age": "29",
+      "DOB": "12-06-1996",
+      "City": "Karur",
+      "Address": "kovil street",
+      "FatherName": "mamanar",
+      "MotherName": "mamiyar"
     },
-    {
-      "id": 2,
-      "title": "Life-Motivation",
-      "Descrip": "Never give up",
-      "Thumbnail": "typicode"
+    "unicID": "arul120696"
+  },
+  {
+    "id": 1,
+    "Name": "Dhanasekar",
+    "Age": "60",
+    "DOB": "25-12-1975",
+    "City": "Vellakovil",
+    "Address": "kamaraja puram",
+    "FatherName": "Gopal",
+    "MotherName": "avva",
+    "ParentID": "gopal020540",
+    "wife": {
+      "name": "lalitha",
+      "Age": "50",
+      "DOB": "12-06-1970",
+      "City": "vellakovil",
+      "Address": "Anna nager",
+      "FatherName": "Nataraj",
+      "MotherName": "avva"
     },
-    {
-      "id": 3,
-      "title": "Yoga-Meditation",
-      "Descrip": "Deep peace of nature sound ",
-      "Thumbnail": "typicode"
+    "unicID": "dhana251275"
+  },
+  {
+    "id": 1,
+    "Name": "Aggapan",
+    "Age": "60",
+    "DOB": "02-11-1968",
+    "City": "Erode",
+    "Address": "agragaram puram",
+    "FatherName": "Gopal",
+    "MotherName": "avva",
+    "ParentID": "gopal020540",
+    "wife": {
+      "name": "perima",
+      "Age": "50",
+      "DOB": "12-06-1970",
+      "City": "coimbatore",
+      "Address": "Anna nager",
+      "FatherName": "Nataraj",
+      "MotherName": "avva"
     },
-    {
-      "id": 4,
-      "title": "travelling",
-      "Descrip": "Travell journey feel to better",
-      "Thumbnail": "typicode"
-    }
-  ],
-  "Musiclist": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "Motivation": [
-    {
-      "id": 1,
-      "title": "I Will Rise Again",
-      "Descrip": "typicode",
-      "Thumbnail": "typicode",
-      "MusicURL": "https://pub-78d78c07b6164f91946d5d03f8be8e49.r2.dev/I%20Will%20Rise%20Again_1.mp3"
+    "unicID": "agga021168"
+  },
+  {
+    "id": 1,
+    "Name": "Kodi",
+    "Age": "27",
+    "DOB": "02-05-1998",
+    "City": "Erode",
+    "Address": "agragaram puram",
+    "FatherName": "Aggapan",
+    "MotherName": "perima",
+    "ParentID": "agga021168",
+    "wife": {
+      "name": "perima",
+      "Age": "50",
+      "DOB": "12-06-1970",
+      "City": "coimbatore",
+      "Address": "Anna nager",
+      "FatherName": "Nataraj",
+      "MotherName": "avva"
     },
-    {
-      "id": 2,
-      "title": "Be THE One",
-      "Descrip": "typicode",
-      "Thumbnail": "typicode",
-      "MusicURL": "https://pub-78d78c07b6164f91946d5d03f8be8e49.r2.dev/English_MotivationSong/Be%20The%20One.mp3"
+    "unicID": "kodi020598"
+  },
+  {
+    "id": 1,
+    "Name": "Sowmi",
+    "Age": "31",
+    "DOB": "02-05-1994",
+    "City": "Erode",
+    "Address": "agragaram puram",
+    "FatherName": "Aggapan",
+    "MotherName": "perima",
+    "ParentID": "agga021168",
+    "wife": {
+      "name": "perima",
+      "Age": "50",
+      "DOB": "12-06-1970",
+      "City": "coimbatore",
+      "Address": "Anna nager",
+      "FatherName": "Nataraj",
+      "MotherName": "avva"
     },
-    {
-      "id": 3,
-      "title": "Eagle of Fire",
-      "Descrip": "typicode",
-      "Thumbnail": "typicode",
-      "MusicURL": "https://pub-78d78c07b6164f91946d5d03f8be8e49.r2.dev/English_MotivationSong/Eagle%20of%20Fire.mp3"
-    }
-  ]
-}
-
+    "unicID": "sowmi020598"
+  },
+  {
+    "id": 1,
+    "Name": "Gopal",
+    "Age": "80",
+    "DOB": "02-05-1940",
+    "City": "Erode",
+    "Address": "agragaram puram",
+    "FatherName": "kolluthata",
+    "MotherName": "kolluavva",
+    "ParentID": "",
+    "wife": {
+      "name": "avva",
+      "Age": "70",
+      "DOB": "12-06-1970",
+      "City": "coimbatore",
+      "Address": "Anna nager",
+      "FatherName": "Nataraj",
+      "MotherName": "avva"
+    },
+    "unicID": "gopal020540"
+  }
+]
